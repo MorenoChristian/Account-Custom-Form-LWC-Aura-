@@ -1,0 +1,9 @@
+<aura:component
+    implements="lightning:actionOverride,flexipage:availableForAllPageTypes"
+    access="global">
+
+    <lightning:workspaceAPI aura:id="workspace"/>
+    <lightning:navigation aura:id="navService"/>
+    
+    <c:g4G_NewAccount oncancel="{!c.handleCancel}" onsaved="{!c.handleSaveSucess}"/>
+</aura:component>
