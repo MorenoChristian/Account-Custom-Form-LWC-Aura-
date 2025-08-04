@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>G4G_Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Parent</label>
+    <referenceTo>G4G_Gics__c</referenceTo>
+    <relationshipLabel>Gics (Parent)</relationshipLabel>
+    <relationshipName>Gics1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
